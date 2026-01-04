@@ -19,12 +19,19 @@ Scandient ("we," "our," or "us") is committed to protecting your privacy. This P
 - Detection results (vegan, vegetarian, or contains meat)
 - This data is processed in real-time and not stored long-term
 
+### Technical Data We Collect
+- **IP Addresses**: Temporarily logged for rate limiting and security purposes
+- **Request Timestamps**: Logged for operational monitoring
+- **Processing Results**: Basic scan outcomes (e.g., "meat detected: yes/no") logged for debugging and service improvement
+- This technical data is not linked to your identity and is used solely for maintaining service quality and security
+
 ### Information We Do NOT Collect
 - We do not collect personal information (name, email, phone number)
 - We do not track your location
-- We do not collect device identifiers
+- We do not collect device identifiers for tracking purposes
 - We do not use cookies or tracking technologies
 - We do not create user accounts or profiles
+- We do not track individual user behavior or usage patterns
 
 ## How We Use Your Information
 
@@ -39,6 +46,7 @@ We use the images you scan solely to:
 - **Network Communication**: All data is transmitted securely using HTTPS encryption
 - **Third-Party Services**: We use Railway.app for hosting our backend infrastructure
 - **No Long-Term Storage**: We do not maintain databases of user scans or images
+- **Server Logs**: Our server maintains temporary operational logs including IP addresses, timestamps, and processing results for security, debugging, and rate limiting purposes. These logs are not used to track or identify individual users.
 
 ## Third-Party Services
 
@@ -64,7 +72,8 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 - **Scanned Images**: Deleted immediately after processing (within seconds)
 - **Processing Results**: Not stored or associated with any user
-- **Analytics**: We do not collect usage analytics or statistics
+- **Server Logs**: Operational logs (IP addresses, timestamps, error messages) are retained temporarily for security and debugging purposes and are automatically rotated
+- **User Analytics**: We do not collect or track individual user behavior, preferences, or usage patterns
 
 ## International Data Transfers
 
