@@ -74,7 +74,7 @@ Our backend service is hosted on Railway.app, which may process data in various 
 
 If you have questions about this Privacy Policy, please contact us at:
 
-**Email**: scandient.support@gmail.com
+**Email**: inte.bytes.ai@gmail.com
 
 ## Your Consent
 
