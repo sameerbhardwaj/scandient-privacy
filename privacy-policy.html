@@ -57,6 +57,20 @@
             margin-top: 20px;
             border-left: 4px solid #06B6D4;
         }
+        .disclaimer {
+            background: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .privacy-label {
+            background: #f0fdf4;
+            border-left: 4px solid #22c55e;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
         a {
             color: #06B6D4;
         }
@@ -67,8 +81,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>🌱 Scandient Privacy Policy</h1>
-        <p class="updated"><strong>Last Updated:</strong> January 24, 2025</p>
+        <h1>Scandient Privacy Policy</h1>
+        <p class="updated"><strong>Last Updated:</strong> February 8, 2026</p>
 
         <div class="summary">
             <strong>Summary:</strong> Scandient processes food label images in real-time to detect ingredients but does not store images, collect personal information, or track users in any way. Your privacy is fully protected.
@@ -92,6 +106,8 @@
             <li>Ingredient text extracted from scanned images</li>
             <li>Detection results (vegan, vegetarian, or contains meat)</li>
             <li>Allergen information</li>
+            <li>Additive and health concern analysis</li>
+            <li>Diet compatibility tags (e.g., Gluten-Free, Keto, Dairy-Free)</li>
             <li>This data is processed in real-time and not stored long-term</li>
         </ul>
 
@@ -111,6 +127,7 @@
             <li>We do not use cookies or tracking technologies</li>
             <li>We do not create user accounts or profiles</li>
             <li>We do not track individual user behavior or usage patterns</li>
+            <li>We do not use advertising identifiers or participate in ad networks</li>
         </ul>
 
         <h2>How We Use Your Information</h2>
@@ -118,49 +135,85 @@
         <ol>
             <li>Extract ingredient text using AI-powered image analysis</li>
             <li>Analyze ingredients to detect meat, dairy, eggs, honey, and other animal products</li>
-            <li>Identify potential allergens</li>
+            <li>Identify potential allergens and harmful additives</li>
+            <li>Evaluate diet compatibility (Vegan, Gluten-Free, Keto, etc.)</li>
+            <li>Flag health concerns related to specific ingredients</li>
             <li>Provide you with instant results about dietary compatibility</li>
         </ol>
+
+        <h2>App Tracking &amp; Advertising</h2>
+        <p>Scandient does not track you across other apps or websites. We do not use advertising identifiers, participate in ad networks, or engage in any form of cross-app tracking. We do not use Apple's App Tracking Transparency framework because we do not track users in any way.</p>
+
+        <h2>In-App Purchases &amp; Subscriptions</h2>
+        <p>Scandient offers optional premium features through in-app subscriptions. All subscription purchases are processed entirely through Apple's App Store. We do not collect, store, or have access to any payment information, credit card numbers, or billing details. Subscription status is managed solely by Apple and verified through Apple's StoreKit framework.</p>
 
         <h2>Data Storage and Security</h2>
         <ul>
             <li><strong>Images:</strong> Processed in real-time and immediately deleted</li>
-            <li><strong>Network Communication:</strong> All data is transmitted securely using HTTPS encryption</li>
+            <li><strong>Network Communication:</strong> All data is transmitted securely using HTTPS encryption with TLS 1.2 or higher</li>
             <li><strong>No Long-Term Storage:</strong> We do not maintain databases of user scans or images</li>
             <li><strong>Server Logs:</strong> Our server maintains temporary operational logs for security and debugging purposes. These logs are not used to track or identify individual users.</li>
         </ul>
-
-        <h2>Third-Party Services</h2>
-        <p>Our app uses the following third-party services to provide functionality:</p>
-        <ul>
-            <li><strong>Railway.app:</strong> Cloud infrastructure hosting for our backend API</li>
-            <li><strong>Google Cloud (Gemini AI):</strong> AI-powered image analysis and text extraction. When you scan a food label, the image is sent to Google's servers for processing. Google's use of this data is governed by their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>.</li>
-        </ul>
-        <p>We do not share your data with advertisers or sell your information to third parties.</p>
-
-        <h2>Children's Privacy</h2>
-        <p>Our app does not knowingly collect information from children under 13 years of age.</p>
-
-        <h2>Your Rights</h2>
-        <p>Since we do not collect or store personal information, there is no personal data for you to access, modify, or delete. Each scan is processed independently with no connection to you as a user.</p>
 
         <h2>Data Retention</h2>
         <ul>
             <li><strong>Scanned Images:</strong> Deleted immediately after processing (within seconds)</li>
             <li><strong>Processing Results:</strong> Not stored or associated with any user</li>
-            <li><strong>Server Logs:</strong> Operational logs are retained temporarily for security and debugging purposes and are automatically rotated</li>
+            <li><strong>Server Logs:</strong> Operational logs are retained for a maximum of 30 days for debugging purposes, then permanently deleted</li>
             <li><strong>User Analytics:</strong> We do not collect or track individual user behavior, preferences, or usage patterns</li>
         </ul>
 
+        <h2>Third-Party Services</h2>
+        <p>Our app uses the following third-party services to provide functionality:</p>
+        <ul>
+            <li><strong>Apple App Store (StoreKit):</strong> Handles all in-app subscription purchases and payment processing. Governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</li>
+            <li><strong>Railway.app:</strong> Cloud infrastructure hosting for our backend API</li>
+            <li><strong>Google Cloud (Gemini AI):</strong> AI-powered image analysis and text extraction. When you scan a food label, the image is sent to Google's servers for processing. Google's use of this data is governed by their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>.</li>
+        </ul>
+        <p>We do not share your data with advertisers or sell your information to third parties.</p>
+
+        <div class="privacy-label">
+            <h3>Apple App Privacy Label</h3>
+            <p>In accordance with Apple's App Store requirements, here is how our data practices map to Apple's privacy nutrition labels:</p>
+            <ul>
+                <li><strong>Data Used to Track You:</strong> None</li>
+                <li><strong>Data Linked to You:</strong> None</li>
+                <li><strong>Data Not Linked to You:</strong> Diagnostics (basic server logs including IP addresses and timestamps, used solely for app functionality and debugging)</li>
+            </ul>
+            <p>We do not collect data in any other Apple privacy category, including Contact Info, Health &amp; Fitness, Financial Info, Location, Contacts, User Content, Browsing History, Search History, Identifiers, Purchases, Usage Data, or Sensitive Info.</p>
+        </div>
+
+        <div class="disclaimer">
+            <h2 style="margin-top: 0; color: #b45309;">Health &amp; Dietary Disclaimer</h2>
+            <p>Scandient provides informational analysis only and is <strong>not a substitute for professional medical or dietary advice</strong>. AI-generated results may contain errors or inaccuracies. Users with food allergies, intolerances, or medical dietary requirements should:</p>
+            <ul>
+                <li>Always verify ingredient information directly on product packaging</li>
+                <li>Consult healthcare professionals for medical dietary guidance</li>
+                <li>Not rely solely on Scandient for allergy or health-critical decisions</li>
+            </ul>
+        </div>
+
+        <h2>Children's Privacy</h2>
+        <p>Our app does not knowingly collect information from children under 13 years of age. Scandient is designed as a general-purpose food scanning tool and does not target children. Since we do not collect personal information from any users, we are compliant with the Children's Online Privacy Protection Act (COPPA). If you believe a child under 13 has provided personal information to us, please contact us immediately.</p>
+
+        <h2>Your Rights</h2>
+        <p>Since we do not collect or store personal information, there is no personal data for you to access, modify, or delete. Each scan is processed independently with no connection to you as a user.</p>
+
+        <h3>For Users in the European Economic Area (EEA)</h3>
+        <p>Under the General Data Protection Regulation (GDPR), you have the right to access, rectify, erase, restrict processing, and port your personal data. Since Scandient collects minimal, non-identifying data (temporary server logs only), most of these rights are satisfied by default. If you have any data-related requests, please contact us at the email below.</p>
+
+        <h3>For Users in California</h3>
+        <p>Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected and to request its deletion. Scandient does not sell personal information. As we do not collect personal data beyond temporary server logs, these rights are inherently satisfied.</p>
+
         <h2>International Data Transfers</h2>
-        <p>Our backend service is hosted on Railway.app, and image analysis is performed using Google Cloud services. Data may be processed in various locations. All data transfers are secured using industry-standard encryption.</p>
+        <p>Our backend service is hosted on Railway.app, and image analysis is performed using Google Cloud services. Data may be processed in various locations. All data transfers are secured using industry-standard HTTPS encryption with TLS 1.2 or higher.</p>
 
         <h2>Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy.</p>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
 
         <div class="contact">
             <h2>Contact Us</h2>
-            <p>If you have questions about this Privacy Policy, please contact us at:</p>
+            <p>If you have questions about this Privacy Policy or your data, please contact us at:</p>
             <p><strong>Email:</strong> <a href="mailto:intel.bytes.ai@gmail.com">intel.bytes.ai@gmail.com</a></p>
         </div>
 
@@ -168,7 +221,7 @@
         <p>By using Scandient, you consent to this Privacy Policy.</p>
 
         <p style="text-align: center; color: #999; margin-top: 30px;">
-            Made with 🌱 for conscious eaters everywhere
+            Scandient - Scan. Know. Eat Smart.
         </p>
     </div>
 </body>
